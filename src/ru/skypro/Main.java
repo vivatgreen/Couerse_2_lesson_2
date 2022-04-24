@@ -4,41 +4,45 @@ public class Main {
     public static void main(String[] s) {
         Main dambldor = new Main();
 
-        // Гарри Поттер, Гермиона Грейнджер и Рон Уизли учатся на факультете Гриффиндор.
-        Griffindor potter = new Griffindor("Гарри Поттер",100,100, 100, 100, 100);
+        // факультет Гриффиндор.
+        Griffindor potter = new Griffindor("Гарри Поттер",95,98, 94, 97, 96);
         dambldor.showInfo(potter);
-        Griffindor germiona = new Griffindor("Гермиона Грейнджер", 90,90, 90, 90, 90);
+        Griffindor germiona = new Griffindor("Гермиона Грейнджер", 88,87, 91, 90, 89);
         dambldor.showInfo(germiona);
-        Griffindor ron = new Griffindor("Рон Уизли", 80,80, 80, 80, 80);
+        Griffindor ron = new Griffindor("Рон Уизли", 85,82, 84, 83, 86);
         dambldor.showInfo(ron);
-        System.out.println("**************************");
+        System.out.println("========================================================");
+        System.out.println();
 
-        // На факультет Пуффендуй учатся Захария Смит, Седрик Диггори, Джастин Финч-Флетчли.
-        Puffendui sahary = new Puffendui("Захария Смит", 60, 55, 60, 50, 80);
+        // факультет Пуффендуй.
+        Puffendui sahary = new Puffendui("Захария Смит", 78, 76, 74, 75, 77);
         dambldor.showInfo(sahary);
-        Puffendui sedric = new Puffendui("Седрик Диггори",70, 50, 70, 70, 50);
+        Puffendui sedric = new Puffendui("Седрик Диггори",68, 65, 72, 71, 66);
         dambldor.showInfo(sedric);
-        Puffendui djastin = new Puffendui("Джастин Финч-Флетчли", 40, 45, 40, 70, 70);
+        Puffendui djastin = new Puffendui("Джастин Финч-Флетчли", 65, 62, 60, 73, 69);
         dambldor.showInfo(djastin);
-        System.out.println("**************************");
+        System.out.println("========================================================");
+        System.out.println();
 
-        // На факультете Когтевран учится Чжоу Чанг, Падма Патил и Маркус Белби.
-        Cogtewrancy chjou = new Cogtewrancy("Чжоу Чанг",50, 60, 50, 70, 60, 60);
+        // факультете Когтевран.
+        Cogtewrancy chjou = new Cogtewrancy("Чжоу Чанг",59, 61, 59, 77, 65, 64);
         dambldor.showInfo(chjou);
-        Cogtewrancy padma = new Cogtewrancy("Падма Патил", 60, 60, 70, 40, 50, 50);
+        Cogtewrancy padma = new Cogtewrancy("Падма Патил", 58, 60, 77, 64, 61, 59);
         dambldor.showInfo(padma);
-        Cogtewrancy marcus = new Cogtewrancy("Маркус Белби", 40, 30, 60, 40, 40, 30);
+        Cogtewrancy marcus = new Cogtewrancy("Маркус Белби", 51, 47, 57, 59, 60, 49);
         dambldor.showInfo(marcus);
-        System.out.println("**************************");
+        System.out.println("========================================================");
+        System.out.println();
 
-        // Драко Малфой, Грэхэм Монтегю, Грегори Гойл учатся на Слизерине.
-        Sliserin draco = new Sliserin("Драко Малфой", 85, 85, 70, 85, 75, 80, 90);
+        // факультет Слизерин.
+        Sliserin draco = new Sliserin("Драко Малфой", 89, 85, 74, 85, 79, 81, 91);
         dambldor.showInfo(draco);
-        Sliserin grahem = new Sliserin("Грэхэм Монтегю", 60, 60, 60, 60, 60, 60, 60);
+        Sliserin grahem = new Sliserin("Грэхэм Монтегю", 71, 69, 66, 67, 65, 64, 62);
         dambldor.showInfo(grahem);
-        Sliserin gregory = new Sliserin("Грегори Гойл",50, 50, 50, 55, 55, 55, 55);
+        Sliserin gregory = new Sliserin("Грегори Гойл",59, 61, 60, 57, 59, 52, 56);
         dambldor.showInfo(gregory);
-        System.out.println("**************************");
+        System.out.println("========================================================");
+        System.out.println();
 
         switch (potter.compareTo(germiona)){
             case 1 -> System.out.println(potter.getName() + " храбрее, чем " + germiona.getName());
@@ -67,7 +71,8 @@ public class Main {
             case -1 -> System.out.println(draco.getName() + " не хитрее, чем " + gregory.getName());
             default -> System.out.println("Аномалия!");
         }
-        System.out.println("**************************");
+        System.out.println("========================================================");
+        System.out.println();
 
         dambldor.compareStudents(sahary, draco);
         dambldor.compareStudents(germiona, draco);
