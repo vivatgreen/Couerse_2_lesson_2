@@ -11,6 +11,7 @@ public class Main {
         dambldor.showInfo(germiona);
         Griffindor ron = new Griffindor("Рон Уизли", 85,82, 84, 83, 86);
         dambldor.showInfo(ron);
+        System.out.println();
         System.out.println("========================================================");
         System.out.println();
 
@@ -21,6 +22,7 @@ public class Main {
         dambldor.showInfo(sedric);
         Puffendui djastin = new Puffendui("Джастин Финч-Флетчли", 65, 62, 60, 73, 69);
         dambldor.showInfo(djastin);
+        System.out.println();
         System.out.println("========================================================");
         System.out.println();
 
@@ -31,6 +33,7 @@ public class Main {
         dambldor.showInfo(padma);
         Cogtewrancy marcus = new Cogtewrancy("Маркус Белби", 51, 47, 57, 59, 60, 49);
         dambldor.showInfo(marcus);
+        System.out.println();
         System.out.println("========================================================");
         System.out.println();
 
@@ -41,6 +44,7 @@ public class Main {
         dambldor.showInfo(grahem);
         Sliserin gregory = new Sliserin("Грегори Гойл",59, 61, 60, 57, 59, 52, 56);
         dambldor.showInfo(gregory);
+        System.out.println();
         System.out.println("========================================================");
         System.out.println();
 
@@ -71,6 +75,7 @@ public class Main {
             case -1 -> System.out.println(draco.getName() + " не хитрее, чем " + gregory.getName());
             default -> System.out.println("Аномалия!");
         }
+        System.out.println();
         System.out.println("========================================================");
         System.out.println();
 
