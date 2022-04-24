@@ -84,11 +84,11 @@ public class Main {
 
     }
 
-    public void showInfo(Hogwards hogvards){
-        System.out.println("Имя = " + hogvards.getName() + ", " +
-                "Колдовство = " + hogvards.getMagicMove() + ", "+
-                "Ерансгрессировать = " + hogvards.getMagicPower()+ ", " +
-                "Факультет = " + hogvards);
+    public void showInfo(Hogwards hogwards){
+        System.out.println("Имя = " + hogwards.getName() + ", " +
+                "Колдовство = " + hogwards.getMagicMove() + ", "+
+                "Ерансгрессировать = " + hogwards.getMagicPower()+ ", " +
+                "Факультет = " + hogwards);
 
     }
 
