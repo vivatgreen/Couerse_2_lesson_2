@@ -7,7 +7,7 @@ public class Main {
         // факультет Гриффиндор.
         Griffindor potter = new Griffindor("Гарри Поттер",95,98, 94, 97, 96);
         dambldor.showInfo(potter);
-        Griffindor germiona = new Griffindor("Гермиона Грейнджер", 88,87, 91, 90, 89);
+        Griffindor germiona = new Griffindor("Гермиона Грейнджер", 90,87, 91, 90, 89);
         dambldor.showInfo(germiona);
         Griffindor ron = new Griffindor("Рон Уизли", 85,82, 84, 83, 86);
         dambldor.showInfo(ron);
